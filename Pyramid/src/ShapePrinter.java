@@ -19,6 +19,8 @@ public class ShapePrinter {
 			}
 			System.out.print("\n");
 		}
+		System.out.println("ê¹ƒí—ˆë¸Œ ì—…ë°ì´íŠ¸ ì—°ìŠµ. ê¹ƒí—ˆë¸Œì— ì˜ ëœ¨ëŠ”ì§€ í™•ì¸í•´ë³´ê¸°");
+//		210124 ì—…ë°ì´íŠ¸
 	}
 		
 	public void printFloydsPyramid(int num){
@@ -26,7 +28,7 @@ public class ShapePrinter {
 		count = 1;
 		floor = 1;
 		while (j<num) {
-			// if ¸¦ ³Ö¾î¼­, ¶ç¾î¾²±â¸¦ ÃÖ´ë°ª±æÀÌ(num)-ÇöÀç°ª(j)±æÀÌ ¸¸Å­ ³Ö¾îÁà¾ß µÅ.
+			// if ï¿½ï¿½ ï¿½Ö¾î¼­, ï¿½ï¿½î¾²ï¿½â¸¦ ï¿½Ö´ë°ªï¿½ï¿½ï¿½ï¿½(num)-ï¿½ï¿½ï¿½ç°ª(j)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å­ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½.
 			
 			length = (int)Math.log10(num)+1;
 			length2 = (int)Math.log10(j+1)+1;
